@@ -36,7 +36,10 @@
                     ul {
                         list-style-type: square;
                     }
-                    h4 {
-                        font-size: 25;
-                        font-weight: 600
+                    nav a {
+                        font-size: 120%;
+                        font-weight: 800
+                    }
+                    #thebad {
+                        background: #3333ff
                     }

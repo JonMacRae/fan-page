@@ -9,7 +9,7 @@
                         line-height: 18.1818px;
                     }
                     h1 {
-                        background-color:  #6666ff;
+                        background-color: #6666ff;
                         color: #00ff00;
                         font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
                         font-size: 22px;
@@ -37,7 +37,10 @@
                     ul {
                         list-style-type: circle;
                     }
-                    h4 {
-                        font-size: 25;
-                        font-weight: 600
+                    nav a {
+                        font-size: 120%;
+                        font-weight: 800
+                    }
+                    #thebad {
+                        background: #3333ff
                     }
