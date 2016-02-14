@@ -1,6 +1,8 @@
                     body {
-                        background-color: #66ccff;
-                        color: #000066;
+                        background-color: #0000ff;
+                        background-image: linear-gradient(to bottom, #1a1aff, #b3b3ff);
+                        background-repeat: no-repeat;
+                        color: #e6e6ff;
                         font-family: 'Helvetica Neue', Helvetica, sans-serif;
                         font-size: 14px;
                         font-style: normal;
@@ -9,14 +11,20 @@
                         line-height: 18.1818px;
                     }
                     h1 {
-                        background-color: #ffff66;
+                        background-color: #00ffff;
+                        background-image: url(blue.jpg);
+                        padding-left: 70px;
+                        padding-bottom: 10px;
+                        padding-top: 10px;
                         color: #00ff00;
-                        font-family: Georgia, Times, serif;
-                        font-size: 22px;
+                        font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+                        font-size: 20px;
                         font-style: normal;
                         font-variant: normal;
                         font-weight: bold;
                         line-height: 22px;
+                        border-radius: 50px;
+                        text-shadow: 3px 3px 3px#666
                     }
                     h2 {
                         font-family: Times, 'Times New Roman', serif;
@@ -25,6 +33,8 @@
                         font-variant: normal;
                         font-weight: bold;
                         line-height: 15px;
+                        color: #cc0000;
+                        text-transform: capitalize
                     }
                     footer {
                         font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -41,5 +51,12 @@
                         font-weight: 800
                     }
                     #thebad {
-                        background: #3333ff
+                        background-color: #3333ff;
+                        margin-left: 10px;
+                        padding-left: 5px;
+                        margin-right: 300px;
+                        border: 2px solid #000000
+                    }
+                    P {
+                        text-indent: 30px;
                     }

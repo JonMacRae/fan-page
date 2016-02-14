@@ -1,5 +1,5 @@
                     body {
-                        background-color: #e5e5ff;
+                        background-image: url(golfball.jpeg);
                         color: #000066;
                         font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
                         font-size: 14px;
@@ -7,16 +7,22 @@
                         font-variant: normal;
                         font-weight: 400;
                         line-height: 18.1818px;
+                        margin-left: 20%;
+                        margin-right: 20%;
                     }
                     h1 {
-                        background-color: #6666ff;
+                        background-color: #00ffff;
+                        background-image: url(blue.jpg);
+                        padding-left: 5px;
                         color: #00ff00;
                         font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
-                        font-size: 22px;
+                        font-size: 20px;
                         font-style: normal;
                         font-variant: normal;
                         font-weight: bold;
                         line-height: 22px;
+                        border-radius: 50px;
+                        text-shadow: 3px 3px 3px#666;
                     }
                     h2 {
                         font-family: 'Times New Roman', serif;
@@ -25,6 +31,7 @@
                         font-variant: normal;
                         font-weight: bold;
                         line-height: 15px;
+                        color: #cc0000|
                     }
                     footer {
                         font-family: 'Helvetica Neue', Helvetica, sans-serif;
@@ -33,6 +40,8 @@
                         font-variant: normal;
                         font-weight: 400;
                         line-height: 15.5844px;
+                        margin: auto;
+                        width: 400px;
                     }
                     ul {
                         list-style-type: circle;
@@ -42,5 +51,20 @@
                         font-weight: 800
                     }
                     #thebad {
-                        background: #3333ff
+                        background-color: #3333ff;
+                        margin-left: 10px;
+                        padding-left: 0px;
+                        margin-right: 200px;
+                        border: 2px solid #000000
+                    }
+                    p {
+                        background-color: #3333ff;
+                        opacity: 0.8;
+                        border: 2px solid #000000;
+                        border-radius: 50px;
+                        line-height: 22px;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        padding-bottom: 10px;
+                        padding-top: 10px;
                     }
